@@ -1,0 +1,17 @@
+server:
+  http:
+    addr: 0.0.0.0:8000
+    timeout: 1s
+  grpc:
+    addr: 0.0.0.0:50050
+    timeout: 1s
+
+data:
+  database:
+    driver: mysql
+    host: 10.0.0.45
+    port: "3306"
+    username: renew
+    password: ${password:G1npH0OuKE$REcId}
+    dbname: zq_flow
+
